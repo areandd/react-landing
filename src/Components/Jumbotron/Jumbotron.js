@@ -4,7 +4,7 @@ import React from 'react';
 function Jumbotron() {
     return (
       <div>
-        <div className="jumbotron" >
+        <div className="jumbotron" style={{backgroundColor:""}} >
           <h1 className="display-4">blah blah</h1>
           <p className="lead">I am a confounder @ nonsense .co I am a confounder @ nonsense .co I am a confounder @ nonsense .co I am a confounder @ nonsense .co I am a confounder @ nonsense .co</p>
           <hr className="my-4" />
