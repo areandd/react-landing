@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './Components/Navbar';
-import Jumbotron from './Components/Jumbotron';
-import Card from './Components/Card';
+import Navbar from './Components/Navbar/Navbar';
+import Jumbotron from './Components/Jumbotron/Jumbotron';
+import Card from './Components/Card/Card.js';
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div >
       <Navbar />
       <Jumbotron />
       <Card />
