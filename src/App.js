@@ -8,15 +8,15 @@ function App() {
   return (
     <div >
       <Navbar />
-      <div  className="container-fluid" style={{marginRight:"20px"}}>
+      <div  className="container-fluid" style={{padding:"10px"}}>
         <Jumbotron />
-          <div style={{width: "100%", display: "flex", marginTop:"10px"}}>
+          <div style={{width: "100%", display: "flex"}}>
             <Card />
             <Card />
             <Card />
             <Card />
           </div>
-      </div> 
+        </div>  
       <Footer /> 
     </div>
   );
