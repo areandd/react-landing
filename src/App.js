@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from './Components/Navbar/Navbar';
-import Jumbotron from './Components/Jumbotron/Jumbotron';
-import Card from './Components/Card/Card';
-import Footer from './Components/Footer/Footer';
+import Navbar from './Components/Navbar';
+import Jumbotron from './Components/Jumbotron';
+import Card from './Components/Card';
+import Footer from './Components/Footer';
 
 function App() {
   return (
